@@ -44,7 +44,7 @@ class Accordion(context: Context, attributeSet: AttributeSet) :
 
     // UI elements
     private val icon: ImageView
-    private val titleTv: TextView
+    val titleTv: TextView
     private val textTv: TextView
     private val titleHolder: CardView
     private val textHolder: CardView
